@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
